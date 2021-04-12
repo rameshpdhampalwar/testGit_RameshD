@@ -1,0 +1,11 @@
+package Files;
+
+public class payLoad {
+	
+	public static String addBook(String ISBN, String Aisle ) {
+		String Payload = "{\"name\":\"Learn Appium Automation with Java\",\""+ISBN+"\":\"bcd\",\""+Aisle+"\":\"227\",\"author\":\"John foe\"}";
+		
+		return Payload;
+		}
+
+	}
